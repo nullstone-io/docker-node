@@ -2,8 +2,14 @@
 
 set -e
 
-echo "Installing dependencies..."
-yarn install
+if [ -f "yarn.lock" ]; then
+    echo "Installing dependencies..."
+    yarn install
+fi
+if [ -f "package.json.lock" ]; then
+    echo "Installing dependencies..."
+    npm install
+fi
 
 # Configure DATABASE_URL if POSTGRES_URL is set
 if [ -n "${POSTGRES_URL}" ]; then
