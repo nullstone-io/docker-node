@@ -6,7 +6,7 @@ if [ -f "yarn.lock" ]; then
     echo "Installing dependencies..."
     yarn install
 fi
-if [ -f "package.json.lock" ]; then
+if [ -f "package-lock.json" ]; then
     echo "Installing dependencies..."
     npm install
 fi
