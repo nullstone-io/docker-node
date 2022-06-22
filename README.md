@@ -14,10 +14,13 @@ This image is opinionated, but not restrictive.
 
 - [local](local.Dockerfile)
 - [latest](Dockerfile)
+- [lambda, lambda-16](lambda.Dockerfile)
+- [lambda-14](lambda.Dockerfile)
+- [lambda-12](lambda.Dockerfile)
 
 ## Variants
 
-This repository builds 2 variants of images: a local image and a production image.
+This repository builds 3 variants of images: a local image, a production container image, and a production serverless image.
 
 ### Local
 
