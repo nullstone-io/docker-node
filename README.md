@@ -14,7 +14,10 @@ This image is opinionated, but not restrictive.
 
 - [local](local.Dockerfile)
 - [latest](Dockerfile)
-- [lambda, lambda-16](lambda.Dockerfile)
+- [lambda, lambda-22](lambda.Dockerfile)
+- [lambda-20](lambda.Dockerfile)
+- [lambda-18](lambda.Dockerfile)
+- [lambda-16](lambda.Dockerfile)
 - [lambda-14](lambda.Dockerfile)
 - [lambda-12](lambda.Dockerfile)
 

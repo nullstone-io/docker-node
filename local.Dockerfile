@@ -1,8 +1,6 @@
-# syntax=docker/dockerfile:1
+FROM node:22-alpine
 
-FROM node:18-alpine
-
-ENV NODE_ENV development
+ENV NODE_ENV=development
 
 # Add entrypoint to initialize Nullstone
 WORKDIR /
@@ -12,6 +10,6 @@ ENTRYPOINT ["/local.entrypoint.sh"]
 
 WORKDIR /app
 
-ENV PORT 9000
+ENV PORT=9000
 
-CMD node app.js
+CMD ["node", "app.js"]
